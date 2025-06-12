@@ -16,3 +16,6 @@ main .warning {
 .warning p {
   opacity: 0.8;
 }
+.order {
+  display: block;
+}
