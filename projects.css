@@ -1,0 +1,18 @@
+main {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .warning {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.warning i {
+  font-size: 30px;
+}
+.warning p {
+  opacity: 0.8;
+}

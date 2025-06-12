@@ -1,0 +1,36 @@
+@media (max-width: 1300px) {
+  .item-1 img,
+  .item-2 img,
+  .item-3 img {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  header {
+    width: minmax(300px, 768px);
+  }
+  .nav {
+    align-items: center;
+    justify-content: space-between;
+  }
+  .order {
+    display: none;
+  }
+  .item-1,
+  .item-2,
+  .item-3 {
+    margin: 20%;
+  }
+
+  .item-2 {
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+  .content p {
+    text-align: left;
+    opacity: 0.6;
+  }
+  footer {
+    margin-bottom: 20px;
+  }
+}
